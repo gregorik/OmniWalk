@@ -15,8 +15,7 @@
 - **Slate Telemetry:** Dedicated editor debugger for real-time visualization of gravity vectors and alignment quality.
 
 ## 📁 Repository Structure
-
-```text
+````
 OmniWalk/
 ├── Source/
 │   ├── OmniWalk/       # Runtime Module (Adhesion & Input Hijacking)
@@ -25,3 +24,20 @@ OmniWalk/
 ├── Content/            # UI Styles and Prototype Blueprints
 └── OmniWalk.uplugin    # Descriptor# OmniWalk
 Zero-Config Arbitrary Gravity &amp; Surface Adhesion Framework for UE5.4+. Native C++ "Magneboot" locomotion with gimbal-free camera stabilization.
+````
+
+## 🛠 Usage (Zero-Config Path)
+
+  Add Component: Attach UOmniWalkPro to any ACharacter.
+
+  Tag (Optional): Add actor tag OmniWalk.Enabled for subsystem auto-injection.
+
+  Play: Move toward any surface. The framework handles orientation, gravity redefinition, and camera stabilization automatically.
+
+## 🧠 Architectural Insights
+
+OmniWalk ticks in the TG_PrePhysics group, ensuring that the redefined gravity vector is utilized by the CharacterMovementComponent during the current frame's integration. It utilizes Slerp-normalized Quaternions for orientation to avoid Euler singularities inherent in traditional platformer movement.
+
+## 📄 License
+
+Distributed under the MIT License. See LICENSE for more information.
