@@ -40,4 +40,4 @@ OmniWalk ticks in the TG_PrePhysics group, ensuring that the redefined gravity v
 
 ## 📄 License
 
-Distributed under the MIT License. See LICENSE for more information.
+Distributed under the GPL 3.0 License. See LICENSE for more information.
