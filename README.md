@@ -1,4 +1,4 @@
-# OmniWalk | Arbitrary Gravity Framework for UE5
+# OmniWalk 0.1 | Arbitrary Gravity Framework for UE5
 
 ![Platform](https://img.shields.io/badge/Platform-UE5.4%2B-blue.svg) 
 ![Language](https://img.shields.io/badge/Language-C%2B%2B-orange.svg)
