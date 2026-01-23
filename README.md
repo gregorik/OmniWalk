@@ -32,6 +32,7 @@ Zero-Config Arbitrary Gravity &amp; Surface Adhesion Framework for UE5.4+. Nativ
 In UE 5.7, please setup your Character like this: 
 
 ![Character Setup in Blueprints](BP1.png)
+![Character Setup in Blueprints](BP2.png)
 
   Add Component: Attach UOmniWalkPro to any ACharacter.
 
