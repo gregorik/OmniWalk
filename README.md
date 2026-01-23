@@ -40,6 +40,11 @@ In UE 5.7, please setup your Character like this:
 
   Play: Move toward any surface. The framework handles orientation, gravity redefinition, and camera stabilization automatically.
 
+To toggle between Strafing (facing camera) and Orient to Movement (facing travel), please use the <i>Orient Rotation To Movement</i> switch on the component.
+
+![Character Setup in Blueprints](BP3.png)
+
+
 ## 🧠 Architectural Insights
 
 OmniWalk ticks in the TG_PrePhysics group, ensuring that the redefined gravity vector is utilized by the CharacterMovementComponent during the current frame's integration. It utilizes Slerp-normalized Quaternions for orientation to avoid Euler singularities inherent in traditional platformer movement.
