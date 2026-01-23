@@ -27,7 +27,11 @@ OmniWalk/
 Zero-Config Arbitrary Gravity &amp; Surface Adhesion Framework for UE5.4+. Native C++ "Magneboot" locomotion with gimbal-free camera stabilization.
 ````
 
-## 🛠 Usage (Zero-Config Path)
+## 🛠 Setup and Usage
+
+In UE 5.7, please setup your Character like this: 
+
+![Character Setup in Blueprints](BP1.png)
 
   Add Component: Attach UOmniWalkPro to any ACharacter.
 
