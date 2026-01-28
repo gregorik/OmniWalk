@@ -1,3 +1,4 @@
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 #include "OmniWalkPlayerController.h"
 #include "GameFramework/Pawn.h"
 

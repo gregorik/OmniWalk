@@ -1,3 +1,4 @@
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 using UnrealBuildTool;
 
 public class OmniWalk : ModuleRules
@@ -5,7 +6,7 @@ public class OmniWalk : ModuleRules
 	public OmniWalk(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = ModuleRules.PCHUsageMode.UseExplicitOrSharedPCHs;
-		bUseUnity = false;
+	//	bUseUnity = false;
 
 		// Core dependencies for high-performance character movement and math
 		PublicDependencyModuleNames.AddRange(

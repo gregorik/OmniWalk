@@ -1,13 +1,14 @@
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 #pragma once
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "OmniWalkPro.generated.h"
 
-/**
- * UOmniWalkPro
- * The "God Component" - Zero-config arbitrary gravity locomotion.
- */
+// FORWARD DECLARATION: Fixes C2061
+class UCharacterMovementComponent;
+class ACharacter;
+
 UCLASS(ClassGroup = (OmniWalk), meta = (BlueprintSpawnableComponent))
 class OMNIWALK_API UOmniWalkPro : public UActorComponent
 {
@@ -26,7 +27,19 @@ public:
 	float AdhesionForce = 2500.0f;
 
 	UPROPERTY(EditAnywhere, Category = "OmniWalk")
+	bool bOrientRotationToMovementPro = true;
+
+	UPROPERTY(EditAnywhere, Category = "OmniWalk|Advanced")
+	bool bUseMultiPointAveraging = true;
+
+	UPROPERTY(EditAnywhere, Category = "OmniWalk")
 	bool bAutoFixPawnSettings = true;
+
+	UPROPERTY(EditAnywhere, Category = "OmniWalk|Advanced")
+	float MultiTraceOffset = 35.0f;
+
+	UPROPERTY(EditAnywhere, Category = "OmniWalk|Advanced")
+	bool bPreserveMomentumOnCorners = true;
 
 protected:
 	virtual void BeginPlay() override;
@@ -34,8 +47,13 @@ protected:
 
 private:
 	void HijackAndFixCharacter();
-	void UpdateSurfaceAdhesion(class ACharacter* Character, float DeltaTime);
-	void ApplyInputCorrection(class ACharacter* Character);
+	void UpdateSurfaceAdhesion(ACharacter* Character, float DeltaTime);
+	void ApplyInputCorrection(ACharacter* Character);
 
+	// Internal Helpers
+	FVector GetAveragedNormal(const ACharacter* Character);
+	void RealignVelocityOnSurfaceChange(UCharacterMovementComponent* CMC, FVector NewUp, float DeltaTime);
+
+	FVector PrevSurfaceNormal = FVector::UpVector;
 	bool bIsGrounded = false;
 };

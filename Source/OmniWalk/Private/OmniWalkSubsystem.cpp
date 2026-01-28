@@ -1,3 +1,4 @@
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 #include "OmniWalkSubsystem.h"
 #include "OmniWalkComponent.h"
 #include "OmniWalk.h" // For LogOmniWalk

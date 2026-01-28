@@ -1,3 +1,4 @@
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 #include "SOmniWalkDebugger.h"
 #include "OmniWalkComponent.h"
 #include "OmniWalkStyle.h"

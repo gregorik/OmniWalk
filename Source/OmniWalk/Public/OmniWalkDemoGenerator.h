@@ -1,4 +1,4 @@
-// Copyright (c) 2025 GregOrigin. All Rights Reserved.
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 
 #pragma once
 

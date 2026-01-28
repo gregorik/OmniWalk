@@ -1,3 +1,4 @@
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 using UnrealBuildTool;
 
 public class OmniWalkEditor : ModuleRules

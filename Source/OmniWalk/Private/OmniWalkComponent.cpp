@@ -1,3 +1,4 @@
+// Copyright (c) 2026 GregOrigin. All Rights Reserved.
 #include "OmniWalkComponent.h"           // <--- MUST BE FIRST
 #include "OmniWalkCameraModifier.h"
 #include "GameFramework/Character.h"
