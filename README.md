@@ -4,7 +4,7 @@
 
 **OmniWalk** is a high-performance C++ middleware framework designed to solve the technical "Showstoppers" of non-Z-up locomotion in Unreal Engine. It delivers a "Zero-Config" solution for Ratchet & Clank style surface adhesion on arbitrary meshes.
 
-Active development & some bugtesting continues on both the present MIT version and the Fab version, but only the Fab version is production-ready at all times: https://www.fab.com/listings/6bced904-37bf-414c-9a28-dca6744e7c22.
+Active development & some bugtesting continues on both the present MIT version and the Fab version, but only [the Fab version is production-ready at all times](https://www.fab.com/listings/6bced904-37bf-414c-9a28-dca6744e7c22).
 
 
 
