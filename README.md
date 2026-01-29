@@ -6,6 +6,8 @@
 
 Active development & some bugtesting continues on both the present MIT version and the Fab version, but only [the Fab version is production-ready at all times](https://www.fab.com/listings/6bced904-37bf-414c-9a28-dca6744e7c22).
 
+[Example video 1](https://youtu.be/e60EJlt1yX8) <br>
+[Example video 2](https://youtu.be/nHwCeW2kG9M)
 
 
 ## 🚀 Key Technical USPs
