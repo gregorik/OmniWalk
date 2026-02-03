@@ -12,11 +12,18 @@ Active development & some bugtesting continues on both the present MIT version a
 
 ## 🚀 Key Technical USPs
 
+- Arbitrary surface walking by driving SetGravityDirection from live surface normals (walls, ceilings, spheres).
+- Surface detection and transition logic (multi‑point traces, wall detection, normal averaging, cooldown smoothing).
+- Adhesion force to prevent popping off convex or inverted geometry.
+- Gravity‑relative input mapping so movement aligns to the camera on any surface.
 - **Native 5.4+ Integration:** Deeply integrated with `UCharacterMovementComponent::SetGravityDirection` for frame-perfect physics integration.
 - **The "Singular Component":** No-code setup. Automatically hijacks Pawn settings, stabilizes camera gimbals, and remaps input vectors to surface planes.
 - **Gimbal-Free Solver:** Custom camera modifier logic eliminates control inversion and view-locking at ±90° pitch.
 - **Surface-Projected Input:** Intercepts and re-projects movement inputs onto triangle normals to prevent "capsule pinning" against vertical walls.
 - **Slate Telemetry:** Dedicated editor debugger for real-time visualization of gravity vectors and alignment quality.
+- Strafe/Follow toggle that works correctly under arbitrary gravity.
+- Auto‑injection via tags for no‑code adoption in levels.
+- Editor tools (example level generator, debugger telemetry).
 
 ## 📁 Repository Structure
 ````
