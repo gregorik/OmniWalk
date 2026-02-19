@@ -9,6 +9,25 @@ Active development & some bugtesting continues on both the present MIT version a
 [Example video 1](https://youtu.be/e60EJlt1yX8) <br>
 [Update video 1](https://www.youtube.com/watch?v=Hije7duQDKY) <br>
 [Update video 2](https://youtu.be/k1NvjIcgSg0)
+<br> <br>
+
+| <i><b>Comparison | <i><b>GitHub version (0.1 MIT)           | <i>FAB edition (0.5+ Closed)</b></i>                |
+|:---|:---|:---|
+| **Version** | Core | Fully featured + updated |
+| **Distribution** | Source only | Binaries, vetted by Epic |
+| **Engine support** | UE 5.7.0 | UE 5.6 - 5.7.2+ |
+| **Gravity-relative camera** | Included | Included |
+| **Angle handling** | Included | Included |
+| **Arbitrary gravity, Wall walking** | Included | Included |
+| **Wall sliding with input resistance** | n/a | Included | 
+| **Dedicated dismount & Sprinting** | n/a | Included |
+| **Grace periods, Coyote time** | n/a | Included |
+| **Planetary gravity** | n/a | Included as subsystem | 
+| **Replication** | n/a | Included |
+| **Code Access** | Public scripts | Full implementation + samples |
+| **Updates** | n/a | Regular, vetted by Epic |
+| **Quality Assurance** | GitHub Issues | Vetted by Epic, tested by author |
+| **Support** | GitHub Issues | Forum & Email |
 
 
 ## 🚀 Key Technical USPs
