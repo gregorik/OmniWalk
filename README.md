@@ -8,8 +8,11 @@ Active development & some bugtesting continues on both the present MIT version a
 
 [Example video 1](https://youtu.be/e60EJlt1yX8) <br>
 [Update video 1](https://www.youtube.com/watch?v=Hije7duQDKY) <br>
-[Update video 2](https://youtu.be/k1NvjIcgSg0)
-<br> <br>
+[Update video 2](https://youtu.be/k1NvjIcgSg0) <br>
+[Update video 3](https://www.youtube.com/watch?v=EPUzWz-JWVs)
+<br>
+[Manual](https://gregorigin.com/Omniwalk/) <br>
+[Extension Modules Manual](https://gregorigin.com/OmniWalk_Extension/) <br><br><br>
 
 | <i><b>Comparison | <i><b>GitHub version (0.1 MIT)           | <i>FAB edition (0.5+ Closed)</b></i>                |
 |:---|:---|:---|
@@ -23,6 +26,11 @@ Active development & some bugtesting continues on both the present MIT version a
 | **Dedicated dismount & Sprinting** | n/a | Included |
 | **Grace periods, Coyote time** | n/a | Included |
 | **Planetary gravity** | n/a | Included as subsystem | 
+| **Spider Walk / Convex Traversal** | n/a | Included |
+| **4 Magnetic Boots States** | n/a | Included |
+| **Volumetric Gravity System** | n/a | Included |
+| **Trigger Zones** | n/a | Included |
+| **Physics Field** | n/a | Included |
 | **Replication** | n/a | Included |
 | **Code Access** | Public scripts | Full implementation + samples |
 | **Updates** | n/a | Regular, vetted by Epic |
