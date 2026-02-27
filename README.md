@@ -11,7 +11,7 @@ Active development & some bugtesting continues on both the present MIT version a
 [Update video 2](https://youtu.be/k1NvjIcgSg0) <br>
 [Update video 3](https://www.youtube.com/watch?v=EPUzWz-JWVs)
 <br>
-[Manual](https://gregorigin.com/Omniwalk/) <br>
+[Manual](https://gregorigin.com/OmniWalk/) <br>
 [Extension Modules Manual](https://gregorigin.com/OmniWalk_Extension/) <br><br><br>
 
 | <i><b>Comparison | <i><b>GitHub version (0.1 MIT)           | <i>FAB edition (0.5+ Closed)</b></i>                |
