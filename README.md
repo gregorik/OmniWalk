@@ -9,7 +9,7 @@ Active development & some bugtesting continues on both the present MIT version a
 [Example video 1](https://youtu.be/e60EJlt1yX8) <br>
 [Update video 1](https://www.youtube.com/watch?v=Hije7duQDKY) <br>
 [Update video 2](https://youtu.be/k1NvjIcgSg0) <br>
-[Update video 3](https://www.youtube.com/watch?v=EPUzWz-JWVs)
+[Update video 3](https://www.youtube.com/watch?v=WidN3t839Uc)
 <br>
 [Manual](https://gregorigin.com/OmniWalk/) <br>
 [Extension Modules Manual](https://gregorigin.com/OmniWalk_Extension/) <br><br><br>
