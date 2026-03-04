@@ -25,12 +25,12 @@ Bugtesting continues on this MIT version, but only [the Fab version is productio
 | **Wall sliding with input resistance** | n/a | Included | 
 | **Dedicated dismount & Sprinting** | n/a | Included |
 | **Grace periods, Coyote time** | n/a | Included |
-| **Planetary gravity** | n/a | Included as subsystem | 
+| **Planetary gravity (0.3)** | n/a | Included as subsystem | 
 | **Spider Walk / Convex Traversal** | n/a | Included |
-| **4 Magnetic Boots States** | n/a | Included |
-| **Volumetric Gravity System** | n/a | Included |
-| **Trigger Zones** | n/a | Included |
-| **Physics Field** | n/a | Included |
+| **4 Magnetic Boots States (0.3)** | n/a | Included |
+| **Volumetric Gravity System (0.3)** | n/a | Included |
+| **Trigger Zones (0.3)** | n/a | Included |
+| **Physics Field (0.3)** | n/a | Included |
 | **Replication** | n/a | Included |
 | **Code Access** | Public scripts | Full implementation + samples |
 | **Updates** | n/a | Regular, vetted by Epic |
