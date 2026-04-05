@@ -2,9 +2,9 @@
 ![image](https://img.shields.io/badge/-Unreal%20Engine-313131?style=for-the-badge&logo=unreal-engine&logoColor=blue) ![image](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=blue) ![image](https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue) ![image](https://img.shields.io/badge/json-5E5C5C?style=for-the-badge&logo=json&logoColor=white) ![image](https://img.shields.io/badge/MIT-green?style=for-the-badge) [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/C0C616ULD4)
 
 
-**OmniWalk** is a high-performance C++ middleware framework designed to solve the technical "Showstoppers" of non-Z-up locomotion in Unreal Engine. It delivers a "Zero-Config" solution for Ratchet & Clank style surface adhesion on arbitrary meshes.
+**OmniWalk** is a high-performance C++ system designed to solve the technical "showstoppers" of non-Z-up locomotion in Unreal Engine 5.4+. It aims to eventually deliver a "zero-config" solution for Ratchet & Clank style surface adhesion on arbitrary meshes.
 
-Bugtesting continues on this MIT version, but only [the Fab version is production-ready at all times](https://www.fab.com/listings/6bced904-37bf-414c-9a28-dca6744e7c22). [Discord support](https://discord.gg/nqYQ5mtmHb)
+Bugtesting and updates continue on this MIT version, but only [the Fab version is production-ready at all times](https://www.fab.com/listings/6bced904-37bf-414c-9a28-dca6744e7c22). [Discord support](https://discord.gg/nqYQ5mtmHb)
 
 <p align="center">
 <img src="OmniPromo1.png" alt="Logo" width="500"/>
