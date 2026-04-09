@@ -6,6 +6,8 @@
 
 Bugtesting and updates continue on this MIT version, but only [the Fab version is production-ready at all times](https://www.fab.com/listings/6bced904-37bf-414c-9a28-dca6744e7c22). [Discord support](https://discord.gg/nqYQ5mtmHb)
 
+This repository deals with advanced bypasses of standard Unreal C++ bottlenecks. 🟢 Currently available for B2B consulting and remote contract/Co-Dev integration (CET Timezone). [Contact form.](https://gregorigin.com/contact.html)
+
 <p align="center">
 <img src="OmniPromo1.png" alt="Logo" width="500"/>
 </p>
