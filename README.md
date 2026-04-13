@@ -21,6 +21,10 @@ Bugtesting and updates continue on this MIT version, but only [the Fab version i
 [Manual](https://gregorigin.com/OmniWalk/) <br>
 [Extension Modules Manual](https://gregorigin.com/OmniWalk_Extension/) <br><br><br>
 
+![OmniPromo1](https://github.com/user-attachments/assets/9c70a374-711a-456e-99e2-c3606e9f4b5a)
+
+
+
 | <i><b>Comparison | <i><b>Core GitHub version (0.1+ MIT)           | <i>Full FAB edition (0.3+ Closed)</b></i>                |
 |:---|:---|:---|
 | **Version** | Core | Fully featured + updated |
